@@ -1,7 +1,7 @@
 # 🔐 IP Geolocation & Threat Detection Tool (C#)
 A powerful C# console application for tracking IP addresses, obtaining geolocation data, and analyzing potential threats like VPNs, TOR usage, and bots. Ideal for network security enthusiasts and privacy-conscious users.
 
-#✨ Features
+# ✨ Features
 🌍 Tracks IP geolocation info (city, country, latitude, longitude, ISP)
 🔎 Detects VPN, TOR, and bot activities using real-time threat analysis
 💾 Saves geo-data and threat info to your desktop for later review
