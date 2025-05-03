@@ -7,7 +7,7 @@ namespace IPGeolocationThreatScanner
 {
     class Program
     {
-        static string apiKey = "96fd8f01f0cf4d3b86da7aa9ad9200d8"; // Your ipgeolocation.io API key
+        static string apiKey = "96fd8f01f0cf4d3b86da7aa9ad9200d8";
 
         static void Main(string[] args)
         {
@@ -34,7 +34,6 @@ namespace IPGeolocationThreatScanner
 
             while (running)
             {
-                // Main menu
                 Console.WriteLine("\nChoose an option:");
                 Console.WriteLine("1) Track your own IP Address");
                 Console.WriteLine("2) Scan an IP Address");
@@ -69,7 +68,6 @@ namespace IPGeolocationThreatScanner
         {
             try
             {
-                // Using ipgeolocation.io API
                 string ipData = new WebClient().DownloadString($"https://api.ipgeolocation.io/ipgeo?apiKey={apiKey}");
                 JObject ipJson = JObject.Parse(ipData);
 
@@ -93,7 +91,6 @@ namespace IPGeolocationThreatScanner
                 Console.WriteLine($"[+] Currency     : {currency}");
                 Console.ResetColor();
 
-                // Save Geo Data to Desktop
                 string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ip_info.txt");
                 File.WriteAllText(path,
                     $"IP: {ip}\nLocation: {city}, {state}, {country}\nLatitude: {latitude}\nLongitude: {longitude}\nISP: {isp}\nTimezone: {timezone}\nCurrency: {currency}");
@@ -102,10 +99,8 @@ namespace IPGeolocationThreatScanner
                 Console.WriteLine($"\n[✓] Geo data saved to: {path}\n");
                 Console.ResetColor();
 
-                // Now, call threat data (VPN, proxy, etc.)
                 GetThreatInfo(ip);
 
-                // Pause to keep the screen visible
                 Console.WriteLine("\nPress any key to return to the main menu...");
                 Console.ReadKey();  // Wait for the user to press a key
             }
@@ -124,7 +119,6 @@ namespace IPGeolocationThreatScanner
 
             try
             {
-                // Using ipgeolocation.io API for scanning
                 string ipData = new WebClient().DownloadString($"https://api.ipgeolocation.io/ipgeo?apiKey={apiKey}&ip={ipAddress}");
                 JObject ipJson = JObject.Parse(ipData);
 
@@ -148,7 +142,6 @@ namespace IPGeolocationThreatScanner
                 Console.WriteLine($"[+] Currency     : {currency}");
                 Console.ResetColor();
 
-                // Save Geo Data to Desktop
                 string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ip_info.txt");
                 File.WriteAllText(path,
                     $"IP: {ip}\nLocation: {city}, {state}, {country}\nLatitude: {latitude}\nLongitude: {longitude}\nISP: {isp}\nTimezone: {timezone}\nCurrency: {currency}");
@@ -157,10 +150,8 @@ namespace IPGeolocationThreatScanner
                 Console.WriteLine($"\n[✓] Geo data saved to: {path}\n");
                 Console.ResetColor();
 
-                // Now, call threat data (VPN, proxy, etc.)
                 GetThreatInfo(ipAddress);
 
-                // Pause to keep the screen visible
                 Console.WriteLine("\nPress any key to return to the main menu...");
                 Console.ReadKey();  // Wait for the user to press a key
             }
