@@ -75,5 +75,9 @@ Open-source under the MIT License.
 👤 Author
 Made by @Threadlinee with ❤️
 
-[![Buy Me a Coffee](https://cdn.ko-fi.com/cdn/kofi5.png)](https://ko-fi.com/G2G114SBVV)
+## ☕ Support Me
+If you like this project, feel free to [buy me a coffee](https://ko-fi.com/G2G114SBVV)!
+
+[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G114SBVV)
+
 
