@@ -8,7 +8,7 @@
 
 # HOW TO RUN!!
 
-**git clone https://github.com/Threadlinee/ip-threat-analyzer.git**
+**git clone https://github.com/Threadlinee/IP-Threat-Analyzer**
 
 or install it **manually** , after that go in main directory go in **terminal** type: **dotnet build** , after it compiles 
 run **dotnet run**
