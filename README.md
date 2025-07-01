@@ -1,4 +1,4 @@
-# ⚡ Ultimate IP Threat Analyzer v5.0 - Enterprise Threat Intelligence Platform
+# ⚡ Ultimate IP Threat Analyzer  - Enterprise Threat Intelligence Platform
 
 ![Static Badges](https://img.shields.io/badge/SOC2%20Compliant-Yes-green)
 ![Static Badges](https://img.shields.io/badge/Python%20API-Beta-blueviolet)
@@ -10,7 +10,7 @@
 + Automated IOC correlation engine
 + Real-time attack surface monitoring
 
-📊 Feature Matrix
+# 📊 Feature Matrix
 
 | Component            | Capabilities                          | Enterprise ROI       |
 |----------------------|---------------------------------------|----------------------|
@@ -18,7 +18,7 @@
 | **Network Forensics**| Full packet reconstruction           | 98% traffic analysis |
 | **Automation**       | Playbooks with 200+ actions          | 60% faster response  |
 
-� Architecture Overview
+# � Architecture Overview
 ███████████████████████████████████████████████████
               SYSTEM ARCHITECTURE              
 ═══════════════════════════════════════════════════
@@ -32,7 +32,7 @@
 │ Packet Capture│ │ TTP Mapping │  │ SIEM Sync   │
 │ Log Ingestion │ │ Risk Scoring│  │ Webhook Trig│
 └──────────────┘ └──────────────┘  └──────────────┘
-🚀 Deployment
+# 🚀 Deployment
 🐋 Containerized Deployment
 # Pull latest enterprise image
 docker pull registry.threatanalyzer.com/ipaas/core:v5.0
@@ -43,7 +43,7 @@ docker run -d \
   -p 8443:8443 \
   -v ./config:/app/config \
   ipaas-core
-🏢 Enterprise Cluster
+# 🏢 Enterprise Cluster
 
 ┌──────────────────────────────────────────────────┐
 │                 LOAD BALANCER                    │
@@ -84,7 +84,7 @@ Containment Actions:
 ✓ Network isolation completed (Policy NET-ISO-45)
 ✓ Credential rotation (3 service accounts)
 ✓ Malware signature deployed to all endpoints
-⚙️ Technical Specifications
+# ⚙️ Technical Specifications
 API Reference
 ENDPOINT                     | AUTH    | RATE LIMIT
 -----------------------------|---------|-----------
@@ -92,6 +92,6 @@ GET /v1/threat/{ip}          | JWT     | 1000/min
 POST /v1/scans               | API Key | 500/min 
 GET /v1/reports/{id}/pdf     | JWT     | No limit
 
-Contact:
+# Contact:
 • GiThub: Threadlinee
 • Discord: 840sxr
