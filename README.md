@@ -10,8 +10,8 @@
 
 **git clone https://github.com/Threadlinee/ip-threat-analyzer.git**
 
-or install it **manually** , after that go in main directory go in **terminal** type: *dotnet build* , after it compiles 
-run *dotnet run*
+or install it **manually** , after that go in main directory go in **terminal** type: **dotnet build** , after it compiles 
+run **dotnet run**
 
 ```diff
 + Enterprise-ready network threat analysis solution
