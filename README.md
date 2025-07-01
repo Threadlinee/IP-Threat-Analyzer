@@ -5,6 +5,14 @@
 ![Static Badges](https://img.shields.io/badge/Threat%20Feeds-14%20Sources-critical)
 ![Static Badges](https://img.shields.io/badge/MITRE%20ATT%26CK-Mapped-ff69b4)
 
+
+# HOW TO RUN!!
+
+**git clone https://github.com/Threadlinee/ip-threat-analyzer.git**
+
+or install it **manually** , after that go in main directory go in **terminal** type: *dotnet build* , after it compiles 
+run *dotnet run*
+
 ```diff
 + Enterprise-ready network threat analysis solution
 + Automated IOC correlation engine
