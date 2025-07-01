@@ -1,0 +1,14 @@
+{
+    "IPGeolocationAPIKey": "YOURIPGEOLOCATIONAPIKEY",
+    "apiKey": "YOURIPGEOLOCATIONAPIKEY",
+    "abuseIpDbKey": "YOURABUSEIPDBKEY",
+    "virusTotalKey": "yourVIRUSTOTALKEY",
+    "shodanKey": "yourIPSHODANKEY",
+    "ipqsKey": "yourIPQSKEY",
+    "adminEmail": "yourexample@gmail.com",
+    "smtpServer": "192.168.1.100",
+    "smtpPort": 444,
+    "smtpUser": "admin",
+    "smtpPass": "admin"
+  }
+  
