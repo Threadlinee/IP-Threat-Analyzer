@@ -102,4 +102,4 @@ GET /v1/reports/{id}/pdf     | JWT     | No limit
 
 # Contact:
 • GiThub: Threadlinee
-• Discord: 840sxr
+• Discord: maskglovenm5
